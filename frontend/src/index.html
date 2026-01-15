@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Reminder App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📝 Task Reminder Application</h1>
+
+<div class="container">
+
+    <h2>Add Task</h2>
+    <input type="text" id="title" placeholder="Title">
+    <input type="text" id="description" placeholder="Description">
+    <input type="email" id="email" placeholder="Email">
+    <input type="number" id="dueTimestamp" placeholder="Due Timestamp (epoch)">
+
+    <button onclick="addTask()">Add Task</button>
+
+    <h2>Task List</h2>
+    <ul id="taskList"></ul>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
